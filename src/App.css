@@ -1,0 +1,14 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.number::before {
+  width: 30px;
+  color: gray;
+  height: 30px;
+}
+.number{
+  transition: all ease-in-out 5s;
+}
