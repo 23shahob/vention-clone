@@ -6,6 +6,7 @@ import Four from "../../public/4.svg";
 import Five from "../../public/5.svg";
 import Six from "../../public/6.svg";
 import Seven from "../../public/7.svg";
+import FileUploadIcon from "@mui/icons-material/FileUpload";
 
 const Section = () => {
   return (
@@ -42,8 +43,84 @@ const Section = () => {
           <img src={Seven} alt="Logo" />
         </div>
       </div>
-      <div className="border-b border-r border-gray-300 w-[70%] px-7 pb-10 pt-[158px]">
-        <p className="text-[41px] font-medium">Contact us</p>
+      <div className="w-[70%]">
+        <div className="border-b border-r border-gray-300 px-7 pb-10 pt-[158px]">
+          <p className="text-[41px] font-medium">Contact us</p>
+        </div>
+        <div>
+          <div className="flex border-b border-r border-gray-300">
+            <div className="h-[60px] w-[50%] border-r border-gray-300">
+              <input
+                className="h-full w-full px-7 outline-none"
+                type="text"
+                placeholder="Full name"
+              />
+            </div>
+            <div className="h-[60px] w-[50%]">
+              <input
+                className="h-full w-full px-7 outline-none"
+                type="email"
+                placeholder="Work email"
+              />
+            </div>
+          </div>
+          <div className="flex border-b border-r border-gray-300">
+            <div className="h-[60px] w-[50%] border-r border-gray-300">
+              <input
+                className="h-full w-full px-7 outline-none"
+                type="tel"
+                placeholder="Phone (optional)"
+              />
+            </div>
+            <div className="flex h-[60px] w-[50%] items-center justify-between px-7">
+              <label
+                className="w-full cursor-pointer text-gray-400"
+                htmlFor="upload"
+              >
+                Upload file (max file size is 30MB)
+              </label>
+              <input
+                className="hidden h-full w-full px-7 outline-none"
+                type="file"
+                id="upload"
+              />
+              <FileUploadIcon className="cursor-pointer text-gray-400" />
+            </div>
+          </div>
+          <div className="flex h-[160px] border-b border-r border-gray-300">
+            <div className="">
+              <input
+                className="h-full w-full px-7 py-5 leading-none outline-none"
+                type="text"
+                placeholder="How can we help you?"
+              />
+            </div>
+            <div className="absolute right-0 flex h-[160px] w-[27.7%] cursor-pointer items-center justify-center bg-[#3155FF] hover:bg-[#101C57]">
+              <span className="text-[20px] font-medium text-white">Send</span>
+            </div>
+          </div>
+          <div className="flex h-[54px] justify-between border-b border-gray-300">
+            <div className="flex items-center gap-5 px-7 py-[18px]">
+              <input className="h-4 w-4" type="checkbox" />
+              <p className="text-[12px] font-light">
+                I agree to the{" "}
+                <a
+                  data-linktype="page"
+                  data-id="932"
+                  data-parent-id="353"
+                  href="https://ventionteams.com/privacy-policy"
+                  target="_self"
+                  className="underline"
+                >
+                  Privacy Policy
+                </a>{" "}
+                and give my permission to process my personal data for the
+                purposes specified in the Privacy Policy.
+              </p>
+            </div>
+            <div className="h-full w-[118px] bg-[#3155FF]"></div>
+          </div>
+        </div>
       </div>
     </div>
   );

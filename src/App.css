@@ -9,6 +9,7 @@
   color: gray;
   height: 30px;
 }
-.number{
+
+.number {
   transition: all ease-in-out 5s;
 }

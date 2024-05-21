@@ -2,6 +2,7 @@ import React from "react";
 import Navbar from "./components/Navbar";
 import Carousel from "./components/Carousel";
 import MainSection from "./components/MainSection";
+import Footer from "./components/Footer";
 
 const App = () => {
   return (
@@ -12,6 +13,7 @@ const App = () => {
       <main className="z-0">
         <Carousel />
         <MainSection />
+        <Footer />
       </main>
     </div>
   );
