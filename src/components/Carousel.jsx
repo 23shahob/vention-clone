@@ -9,9 +9,9 @@ const Carousel = () => {
   const [slide, setSlide] = useState(1);
 
   return (
-    <div className="relative mt-8 w-full border-b border-b-gray-300 pb-14">
+    <div className="relative w-full border-b border-b-gray-300 pb-14 pt-8 dark:bg-[#29292B]">
       {slide === 1 && (
-        <div>
+        <div className="dark:bg-[#29292B]">
           <div className="flex">
             <div className="flex h-[290px] w-[50%]">
               <div className="w-[30px]"></div>
@@ -27,7 +27,7 @@ const Carousel = () => {
                   onClick={() => {
                     setSlide(1);
                   }}
-                  className="number w-36 cursor-pointer border-t border-t-[#39175B] text-[#39175B]"
+                  className="number w-36 cursor-pointer border-t border-t-[#FF6A47] text-[#FF6A47]"
                 >
                   01
                 </span>
@@ -62,7 +62,7 @@ const Carousel = () => {
             <div className="relative flex w-[50%]">
               {/* <div className="w-[50%]"></div> */}
               <div className="absolute bottom-0 right-[30px] flex w-[50%] flex-col gap-y-[30px] px-[30px]">
-                <span className="text-[17px]">
+                <span className="text-[17px] dark:text-white">
                   Vention developers partner with innovative companies from
                   startups to Fortune 500s, lending the AI engineering expertise
                   to propel them to new heights and the edge to outpace the
@@ -132,7 +132,7 @@ const Carousel = () => {
             <div className="relative flex w-[50%]">
               {/* <div className="w-[50%]"></div> */}
               <div className="absolute bottom-0 right-[30px] flex w-[50%] flex-col gap-y-[30px] px-[30px]">
-                <span className="text-[17px]">
+                <span className="text-[17px] dark:text-white">
                   On May 16, Vention kicks off International Invention Day,
                   celebrating human creativity and game-changing inventions.
                   Until June 30, you’ll also have a chance to join the
@@ -182,7 +182,7 @@ const Carousel = () => {
                   onClick={() => {
                     setSlide(3);
                   }}
-                  className="number w-36 cursor-pointer border-t border-t-[#39175B] text-[#39175B]"
+                  className="number w-36 cursor-pointer border-t border-t-[#FF6A47] text-[#FF6A47]"
                 >
                   03
                 </span>
@@ -201,7 +201,7 @@ const Carousel = () => {
             <div className="relative flex w-[50%]">
               {/* <div className="w-[50%]"></div> */}
               <div className="absolute bottom-0 right-[30px] flex w-[50%] flex-col gap-y-[30px] px-[30px]">
-                <span className="text-[17px]">
+                <span className="text-[17px] dark:text-white">
                   As pioneers in AI engineering, we view it as more than a shiny
                   tool: it's a pillar of the new business normal. Those
                   companies that embrace and leverage AI will set the standard
@@ -262,7 +262,7 @@ const Carousel = () => {
                   onClick={() => {
                     setSlide(4);
                   }}
-                  className="number w-36 cursor-pointer border-t border-t-[#39175B] text-[#39175B]"
+                  className="number w-36 cursor-pointer border-t border-t-[#3155FF] text-[#3155FF]"
                 >
                   04
                 </span>
@@ -273,7 +273,7 @@ const Carousel = () => {
             <div className="relative flex w-[50%]">
               {/* <div className="w-[50%]"></div> */}
               <div className="absolute bottom-0 right-[30px] flex w-[50%] flex-col gap-y-[30px] px-[30px]">
-                <span className="text-[17px]">
+                <span className="text-[17px] dark:text-white">
                   Get it done right — the first time. Our proven software
                   expertise and engagement flexibility mean you don’t have to
                   worry about timelines, processes, or outcomes. Proficient in

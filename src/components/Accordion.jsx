@@ -18,8 +18,9 @@ export default function ControlledAccordions() {
   };
 
   return (
-    <div>
+    <div className="dark:bg-[#29292B]">
       <Accordion
+        className="dark:bg-[#29292B]"
         expanded={expanded === "panel1"}
         onChange={handleChange("panel1")}
       >
@@ -30,6 +31,7 @@ export default function ControlledAccordions() {
           sx={{ height: "82px", display: "flex" }}
         >
           <Typography
+            className="dark:text-white"
             sx={{
               width: "50%",
               flexShrink: 0,
@@ -38,7 +40,10 @@ export default function ControlledAccordions() {
             Fitness & wellness
           </Typography>
           <Typography sx={{ width: "50%" }}>
-            <a className="underline hover:text-[#004051]" href="#">
+            <a
+              className="underline hover:text-[#004051] dark:text-white"
+              href="#"
+            >
               ClassPass
             </a>
           </Typography>
@@ -46,7 +51,7 @@ export default function ControlledAccordions() {
         <AccordionDetails className="flex">
           <Typography className="w-[50%]"></Typography>
           <Typography className="w-[50%]">
-            <p className="mb-12 text-[18px]">
+            <p className="mb-12 text-[18px] dark:text-white">
               A boutique fitness membership app, ClassPass provides access to
               in-studio workouts, beauty and wellness appointments, and
               on-demand exercise classes.
@@ -56,6 +61,7 @@ export default function ControlledAccordions() {
         </AccordionDetails>
       </Accordion>
       <Accordion
+        className="dark:bg-[#29292B]"
         expanded={expanded === "panel2"}
         onChange={handleChange("panel2")}
       >
@@ -65,11 +71,17 @@ export default function ControlledAccordions() {
           id="panel2bh-header"
           sx={{ height: "82px", display: "flex" }}
         >
-          <Typography sx={{ width: "50%", flexShrink: 0 }}>
+          <Typography
+            className="dark:text-white"
+            sx={{ width: "50%", flexShrink: 0 }}
+          >
             Food & beverage
           </Typography>
           <Typography sx={{ width: "50%" }}>
-            <a className="underline hover:text-[#004051]" href="#">
+            <a
+              className="underline hover:text-[#004051] dark:text-white"
+              href="#"
+            >
               Bevi
             </a>
           </Typography>
@@ -77,7 +89,7 @@ export default function ControlledAccordions() {
         <AccordionDetails className="flex">
           <Typography className="w-[50%]"></Typography>
           <Typography className="w-[50%]">
-            <p className="mb-12 text-[18px]">
+            <p className="mb-12 text-[18px] dark:text-white">
               A boutique fitness membership app, ClassPass provides access to
               in-studio workouts, beauty and wellness appointments, and
               on-demand exercise classes.
@@ -87,6 +99,7 @@ export default function ControlledAccordions() {
         </AccordionDetails>
       </Accordion>
       <Accordion
+        className="dark:bg-[#29292B]"
         expanded={expanded === "panel3"}
         onChange={handleChange("panel3")}
       >
@@ -96,9 +109,17 @@ export default function ControlledAccordions() {
           id="panel3bh-header"
           sx={{ height: "82px", display: "flex" }}
         >
-          <Typography sx={{ width: "50%", flexShrink: 0 }}>Fintech</Typography>
+          <Typography
+            className="dark:text-white"
+            sx={{ width: "50%", flexShrink: 0 }}
+          >
+            Fintech
+          </Typography>
           <Typography sx={{ width: "50%" }}>
-            <a className="underline hover:text-[#004051]" href="#">
+            <a
+              className="underline hover:text-[#004051] dark:text-white"
+              href="#"
+            >
               DealCloud
             </a>
           </Typography>
@@ -106,7 +127,7 @@ export default function ControlledAccordions() {
         <AccordionDetails className="flex">
           <Typography className="w-[50%]"></Typography>
           <Typography className="w-[50%]">
-            <p className="mb-12 text-[18px]">
+            <p className="mb-12 text-[18px] dark:text-white">
               DealCloud equips professional and financial services firms with
               robust tools for optimizing deal execution and client relationship
               management.
@@ -116,6 +137,7 @@ export default function ControlledAccordions() {
         </AccordionDetails>
       </Accordion>
       <Accordion
+        className="dark:bg-[#29292B]"
         expanded={expanded === "panel4"}
         onChange={handleChange("panel4")}
       >
@@ -125,11 +147,17 @@ export default function ControlledAccordions() {
           id="panel4bh-header"
           sx={{ height: "82px", display: "flex" }}
         >
-          <Typography sx={{ width: "50%", flexShrink: 0 }}>
+          <Typography
+            className="dark:text-white"
+            sx={{ width: "50%", flexShrink: 0 }}
+          >
             Healthtech
           </Typography>
           <Typography sx={{ width: "50%" }}>
-            <a className="underline hover:text-[#004051]" href="#">
+            <a
+              className="underline hover:text-[#004051] dark:text-white"
+              href="#"
+            >
               Dialogue
             </a>
           </Typography>
@@ -137,7 +165,7 @@ export default function ControlledAccordions() {
         <AccordionDetails className="flex">
           <Typography className="w-[50%]"></Typography>
           <Typography className="w-[50%]">
-            <p className="mb-12 text-[18px]">
+            <p className="mb-12 text-[18px] dark:text-white">
               A Canadian telemedicine startup, Dialogue's platform provides
               access to an expansive virtual medical team for unparalleled
               patient-centric care.
@@ -147,6 +175,7 @@ export default function ControlledAccordions() {
         </AccordionDetails>
       </Accordion>
       <Accordion
+        className="dark:bg-[#29292B]"
         expanded={expanded === "panel5"}
         onChange={handleChange("panel5")}
       >
@@ -156,11 +185,17 @@ export default function ControlledAccordions() {
           id="panel5bh-header"
           sx={{ height: "82px", display: "flex" }}
         >
-          <Typography sx={{ width: "50%", flexShrink: 0 }}>
+          <Typography
+            className="dark:text-white"
+            sx={{ width: "50%", flexShrink: 0 }}
+          >
             Healthtech
           </Typography>
           <Typography sx={{ width: "50%" }}>
-            <a className="underline hover:text-[#004051]" href="#">
+            <a
+              className="underline hover:text-[#004051] dark:text-white"
+              href="#"
+            >
               Thirty Madison
             </a>
           </Typography>
@@ -168,7 +203,7 @@ export default function ControlledAccordions() {
         <AccordionDetails className="flex">
           <Typography className="w-[50%]"></Typography>
           <Typography className="w-[50%]">
-            <p className="mb-12 text-[18px]">
+            <p className="mb-12 text-[18px] dark:text-white">
               Designed to help people to virtually manage their chronic
               conditions, Thirty Madison's portfolio encompasses treatment for
               everything from migraines to hair loss.

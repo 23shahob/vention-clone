@@ -8,12 +8,12 @@ import Bbb from "../../public/bbb.png";
 
 const Footer = () => {
   return (
-    <div className="flex h-screen w-full bg-[#29292B]">
+    <div className="flex h-screen w-full bg-[#29292B] dark:bg-white">
       <div className="w-[128px] border-r border-[#434345]"></div>
       <div className="w-full">
         <div className="flex h-[410px] w-full">
           <div className="w-[61.65%] border-b border-r border-[#434345] px-7 py-10">
-            <p className="mb-5 text-[21px] text-white">
+            <p className="mb-5 text-[21px] text-white dark:text-black">
               Subscribe to our newsletter for industry <br /> insights and
               company news!
             </p>
@@ -21,7 +21,7 @@ const Footer = () => {
               <input
                 type="text"
                 placeholder="Email adress*"
-                className="h-full w-full bg-transparent font-medium"
+                className="h-full w-full bg-transparent font-medium text-white outline-none"
               />
               <EastIcon className="text-white" />
             </form>
@@ -58,37 +58,58 @@ const Footer = () => {
               <ul className="mb-10 flex flex-col gap-y-2">
                 <p className="mb-5 font-medium text-neutral-600">About</p>
                 <li>
-                  <a className="text-white hover:text-[#FF6A47]" href="#">
+                  <a
+                    className="text-white hover:text-[#FF6A47] dark:text-black"
+                    href="#"
+                  >
                     Company
                   </a>
                 </li>
                 <li>
-                  <a className="text-white hover:text-[#FF6A47]" href="#">
+                  <a
+                    className="text-white hover:text-[#FF6A47] dark:text-black"
+                    href="#"
+                  >
                     Portfolio
                   </a>
                 </li>
                 <li>
-                  <a className="text-white hover:text-[#FF6A47]" href="#">
+                  <a
+                    className="text-white hover:text-[#FF6A47] dark:text-black"
+                    href="#"
+                  >
                     Partnerships
                   </a>
                 </li>
                 <li>
-                  <a className="text-white hover:text-[#FF6A47]" href="#">
+                  <a
+                    className="text-white hover:text-[#FF6A47] dark:text-black"
+                    href="#"
+                  >
                     Newsroom
                   </a>
                 </li>
                 <li>
-                  <a className="text-white hover:text-[#FF6A47]" href="#">
+                  <a
+                    className="text-white hover:text-[#FF6A47] dark:text-black"
+                    href="#"
+                  >
                     Media Kit
                   </a>{" "}
                 </li>
                 <li>
-                  <a className="text-white hover:text-[#FF6A47]" href="#">
+                  <a
+                    className="text-white hover:text-[#FF6A47] dark:text-black"
+                    href="#"
+                  >
                     Careers
                   </a>
                 </li>
                 <li>
-                  <a className="text-white hover:text-[#FF6A47]" href="#">
+                  <a
+                    className="text-white hover:text-[#FF6A47] dark:text-black"
+                    href="#"
+                  >
                     Contact
                   </a>
                 </li>
@@ -104,12 +125,18 @@ const Footer = () => {
               <ul className="mb-[150px] flex flex-col gap-y-2">
                 <p className="mb-5 font-medium text-neutral-600">About</p>
                 <li>
-                  <a className="text-white hover:text-[#FF6A47]" href="#">
+                  <a
+                    className="text-white hover:text-[#FF6A47] dark:text-black"
+                    href="#"
+                  >
                     Dedicated development teams
                   </a>
                 </li>
                 <li>
-                  <a className="text-white hover:text-[#FF6A47]" href="#">
+                  <a
+                    className="text-white hover:text-[#FF6A47] dark:text-black"
+                    href="#"
+                  >
                     Project-based delivery
                   </a>
                 </li>
@@ -129,40 +156,57 @@ const Footer = () => {
             <div className="mb-12 flex justify-between">
               <ul className="flex flex-col gap-y-2">
                 <li>
-                  <a className="text-white hover:text-[#FF6A47]" href="#">
+                  <a
+                    className="text-white hover:text-[#FF6A47] dark:text-black"
+                    href="#"
+                  >
                     Linkedin
                   </a>
                 </li>
                 <li>
-                  <a className="text-white hover:text-[#FF6A47]" href="#">
+                  <a
+                    className="text-white hover:text-[#FF6A47] dark:text-black"
+                    href="#"
+                  >
                     Instagram
                   </a>
                 </li>
                 <li>
-                  <a className="text-white hover:text-[#FF6A47]" href="#">
+                  <a
+                    className="text-white hover:text-[#FF6A47] dark:text-black"
+                    href="#"
+                  >
                     X (formerly Twitter)
                   </a>
                 </li>
                 <li>
-                  <a className="text-white hover:text-[#FF6A47]" href="#">
+                  <a
+                    className="text-white hover:text-[#FF6A47] dark:text-black"
+                    href="#"
+                  >
                     Youtube
                   </a>
                 </li>
               </ul>
               <ul className="flex flex-col gap-y-2">
                 <li>
-                  <a className="text-white hover:text-[#FF6A47]" href="#">
+                  <a
+                    className="text-white hover:text-[#FF6A47] dark:text-black"
+                    href="#"
+                  >
                     US: +1 (718) 374-5043
                   </a>
                 </li>
-                <li className="text-white">
+                <li className="text-white dark:text-black">
                   575 Lexington Avenue, 14th <br />
                   Floor
                 </li>
-                <li className="text-white">New York, NY-10022</li>
+                <li className="text-white dark:text-black">
+                  New York, NY-10022
+                </li>
               </ul>
             </div>
-            <span class="text-white">
+            <span class="text-white dark:text-black">
               © 2002 - 2024. Vention All Rights Reserved.
             </span>
           </div>

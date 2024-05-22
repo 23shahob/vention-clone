@@ -12,10 +12,10 @@ const Section = () => {
   return (
     <div className="mt-[82px]">
       <div className="border-b border-gray-300 px-[28px] pb-[41px] pt-[158px]">
-        <p className="mb-3 text-[41px] font-medium">
+        <p className="mb-3 text-[41px] font-medium dark:text-white">
           Recognized as a leader by those in the know
         </p>
-        <p className="text-[18px]">
+        <p className="text-[18px] dark:text-white">
           Year after year, Vention has been counted among best-in-class
           companies by the industry’s most respected institutions.
         </p>
@@ -43,22 +43,22 @@ const Section = () => {
           <img src={Seven} alt="Logo" />
         </div>
       </div>
-      <div className="w-[70%]">
+      <div className="w-[70%] dark:bg-[#29292B]">
         <div className="border-b border-r border-gray-300 px-7 pb-10 pt-[158px]">
-          <p className="text-[41px] font-medium">Contact us</p>
+          <p className="text-[41px] font-medium dark:text-white">Contact us</p>
         </div>
         <div>
           <div className="flex border-b border-r border-gray-300">
             <div className="h-[60px] w-[50%] border-r border-gray-300">
               <input
-                className="h-full w-full px-7 outline-none"
+                className="h-full w-full px-7 outline-none dark:bg-[#29292B]"
                 type="text"
                 placeholder="Full name"
               />
             </div>
             <div className="h-[60px] w-[50%]">
               <input
-                className="h-full w-full px-7 outline-none"
+                className="h-full w-full px-7 outline-none dark:bg-[#29292B]"
                 type="email"
                 placeholder="Work email"
               />
@@ -67,7 +67,7 @@ const Section = () => {
           <div className="flex border-b border-r border-gray-300">
             <div className="h-[60px] w-[50%] border-r border-gray-300">
               <input
-                className="h-full w-full px-7 outline-none"
+                className="h-full w-full px-7 outline-none dark:bg-[#29292B]"
                 type="tel"
                 placeholder="Phone (optional)"
               />
@@ -80,7 +80,7 @@ const Section = () => {
                 Upload file (max file size is 30MB)
               </label>
               <input
-                className="hidden h-full w-full px-7 outline-none"
+                className="hidden h-full w-full px-7 outline-none dark:bg-[#29292B]"
                 type="file"
                 id="upload"
               />
@@ -90,7 +90,7 @@ const Section = () => {
           <div className="flex h-[160px] border-b border-r border-gray-300">
             <div className="">
               <input
-                className="h-full w-full px-7 py-5 leading-none outline-none"
+                className="h-full w-full px-7 py-5 leading-none outline-none dark:bg-[#29292B]"
                 type="text"
                 placeholder="How can we help you?"
               />
@@ -102,7 +102,7 @@ const Section = () => {
           <div className="flex h-[54px] justify-between border-b border-gray-300">
             <div className="flex items-center gap-5 px-7 py-[18px]">
               <input className="h-4 w-4" type="checkbox" />
-              <p className="text-[12px] font-light">
+              <p className="text-[12px] dark:text-white font-light">
                 I agree to the{" "}
                 <a
                   data-linktype="page"

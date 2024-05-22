@@ -13,23 +13,28 @@ const Navbar = () => {
       </div>
       <div className="flex h-full w-[67%] items-center justify-around">
         <div className="flex h-full items-center hover:text-[#52002D] hover:last:rotate-180">
-          <p>What we do</p>
-          <KeyboardArrowDownIcon className="dropdown hover:rotate-180" />
+          <p className="dark:text-white">What we do</p>
+          <KeyboardArrowDownIcon className="dropdown hover:rotate-180 dark:text-white" />
         </div>
         <div className="">
-          <p className="text cursor-pointer hover:text-[#52002D]">Portfolio</p>
+          <p className="text cursor-pointer hover:text-[#52002D] dark:text-white">
+            Portfolio
+          </p>
         </div>
         <div className="">
-          <p className="text cursor-pointer hover:text-[#52002D]">Insights</p>
+          <p className="text cursor-pointer hover:text-[#52002D] dark:text-white">
+            Insights
+          </p>
         </div>
         <div className="flex h-full items-center hover:text-[#52002D]">
-          <p>About us</p> <KeyboardArrowDownIcon className="dropdown hover:rotate-180" />
+          <p className="dark:text-white">About us</p>{" "}
+          <KeyboardArrowDownIcon className="dropdown hover:rotate-180 dark:text-white" />
         </div>
         <div className="flex h-full cursor-pointer items-center bg-orange-600 px-5 transition duration-300 hover:bg-[#52002D] hover:text-white">
           <p>Contact us</p>
         </div>
         <div className="">
-          <LanguageIcon />
+          <LanguageIcon className="dark:text-white" />
         </div>
       </div>
     </div>
